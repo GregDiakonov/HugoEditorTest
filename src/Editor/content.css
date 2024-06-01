@@ -1,0 +1,14 @@
+.ContentEditor{
+    display: flex;
+    width: 100%;
+
+    justify-content: space-between;
+
+    margin: 20px;
+}
+
+.ContentText{
+    width: 80%;
+    margin-left: 50px;
+}
+

@@ -1,0 +1,92 @@
+.IntroH{
+    display: flex;
+    background-color: #1e1e1e;
+
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+}
+
+.Logo{
+    width: 320px;
+    height: 88px;
+}
+
+.navigation{
+    display: flex;
+    gap: 10px;
+}
+
+.IntroHeaderBtn{
+    width: 300px;
+    height: 4%; 
+
+    color: white;
+    background-color: #1e1e1e;
+    font-size: 24px;
+
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.IntroHeaderBtn .AccountTooltip{
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+  
+    /* Position the tooltip text */
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -60px;
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.IntroHeaderBtn:hover .AccountTooltip {
+    visibility: visible;
+    opacity: 1;
+}
+
+.IntroBody{
+    font-size: 24px;
+    width: 80%;
+}
+
+.IntroSidebar{
+    width: 20%;
+    line-height: 35px;
+}
+
+a {
+    font-size: 24px;
+    color: black;
+}
+
+a:link {
+    text-decoration: none; 
+    color: inherit; 
+  }
+  
+  a:visited {
+    text-decoration: none; 
+    color: inherit;
+  }
+  
+  a:hover {
+    text-decoration: none; 
+    color: inherit; 
+  }
+  
+  a:active {
+    text-decoration: none; 
+    color: inherit; 
+  }

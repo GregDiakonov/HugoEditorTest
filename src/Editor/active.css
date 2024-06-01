@@ -1,0 +1,41 @@
+.ActiveW {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 2em;
+}
+
+.ActiveDirectory {
+    background-color: wheat;
+    border: 1px solid black;
+    border-radius: 3vh;
+
+    width: 20%;
+    height: 75vh;
+
+    font-size: 32px;
+    text-align: center;
+    align-content: center;
+}
+
+.ActiveWorkspace {
+    background-color: wheat;
+    border: 1px solid black;
+    border-radius: 3vh;
+
+    width: 76%;
+    height: 75vh;
+
+    font-size: 32px;
+
+    text-align: center;
+    align-content: center;
+}
+
+button {
+    margin: 20px;
+
+    font-size: 20px;
+    width: 9vw;
+    height: 9vh;
+}

@@ -1,0 +1,37 @@
+.NullW {
+    display: flex;
+    justify-content: space-between;
+
+    padding: 2em;
+}
+
+.NullDirectory {
+    background-color: gray;
+    border: 1px solid black;
+    border-radius: 3vh;
+
+    width: 20%;
+    height: 75vh;
+}
+
+.NullWorkspace {
+    background-color: gray;
+    border: 1px solid black;
+    border-radius: 3vh;
+
+    width: 76%;
+    height: 75vh;
+
+    font-size: 32px;
+
+    text-align: center;
+    align-content: center;
+}
+
+button {
+    margin: 20px;
+
+    font-size: 20px;
+    width: 7vw;
+    height: 7vh;
+}
